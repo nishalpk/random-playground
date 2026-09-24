@@ -1,0 +1,38 @@
+[
+  {
+    "ticket_id": "T-1001",
+    "category": "billing_issue",
+    "priority": "normal",
+    "reason": "Deterministic fallback classification used because no LLM response was available.",
+    "suggested_reply": "I\u2019m sorry about the billing issue. We\u2019ll review the transaction and help resolve any duplicate charge.",
+    "confidence": 0.75,
+    "route_to": "payments_queue"
+  },
+  {
+    "ticket_id": "T-1002",
+    "category": "account_access",
+    "priority": "urgent",
+    "reason": "Deterministic fallback classification used because no LLM response was available.",
+    "suggested_reply": "I\u2019m sorry you\u2019re having trouble signing in. Please confirm the reset completed, and we\u2019ll help restore access.",
+    "confidence": 0.75,
+    "route_to": "trust_and_access_queue"
+  },
+  {
+    "ticket_id": "T-1003",
+    "category": "product_how_to",
+    "priority": "normal",
+    "reason": "Deterministic fallback classification used because no LLM response was available.",
+    "suggested_reply": "You can export your transaction history from the account activity or reports area as a CSV.",
+    "confidence": 0.75,
+    "route_to": "general_support_queue"
+  },
+  {
+    "ticket_id": "T-1004",
+    "category": "bug_report",
+    "priority": "normal",
+    "reason": "Deterministic fallback classification used because no LLM response was available.",
+    "suggested_reply": "I\u2019m sorry the app is failing. Please share your device and app version so our technical team can investigate.",
+    "confidence": 0.75,
+    "route_to": "technical_queue"
+  }
+]
